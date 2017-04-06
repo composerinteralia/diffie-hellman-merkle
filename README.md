@@ -11,9 +11,6 @@ eve.hack_network
 
 alice.send_secret_number(42, bob)
 eve.share_sniffed_data
-
-bob.send_secret_number(77, alice)
-eve.share_sniffed_data
 ```
 
 Results:
